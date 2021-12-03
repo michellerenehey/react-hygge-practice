@@ -8,6 +8,7 @@ export default function Editor({ light, setLight }) {
         <select>
           <option>light 1</option>
           <option>light 2</option>
+          <option>light 3</option>
         </select>
       </div>
 
@@ -16,14 +17,16 @@ export default function Editor({ light, setLight }) {
         <select>
           <option>music 1</option>
           <option>music 2</option>
+          <option>music 3</option>
         </select>
       </div>
 
       <div className="top">
-        <label>book label</label>
+        <label>activity label</label>
         <select>
-          <option>book 1</option>
-          <option>book 2</option>
+          <option>activity 1</option>
+          <option>activity 2</option>
+          <option>activity 3</option>
         </select>
       </div>
     </div>
