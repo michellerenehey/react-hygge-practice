@@ -7,11 +7,12 @@ import '../styles/Home.css';
 
 export default function Home() {
   const [light, setLight] = useState('');
+  const [activity, setActivity] = useState('');
 
   return (
     <main>
-      <Editor {...{ light, setLight }} />
-      <Preview />
+      <Editor {...{ light, setLight, activity, setActivity }} />
+      <Preview {...{ light, setActivity }} />
     </main>
   );
 }
