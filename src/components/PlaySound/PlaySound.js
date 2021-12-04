@@ -7,7 +7,7 @@ const PlaySound = (handleSongLoading, handleSongPlaying, handleSongFinishedPlayi
   const [isPlaying, setIsPlaying] = useState(false);
 
   return (
-    <div>
+    <div className="soundButton">
       <button onClick={() => setIsPlaying(!isPlaying)}>
         {!isPlaying ? 'Play some rain sounds...' : 'Stop the sounds'}
       </button>

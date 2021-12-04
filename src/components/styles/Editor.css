@@ -1,3 +1,17 @@
 .top {
   display: flex;
 }
+
+.selector {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+  align-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+
+.labelFont {
+  font-size: 30px;
+}

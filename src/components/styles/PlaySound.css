@@ -1,0 +1,12 @@
+button {
+  background-color: #ede3e4;
+  padding: 10px;
+  border: white solid 2px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+.soundButton {
+  padding: 10px;
+}
