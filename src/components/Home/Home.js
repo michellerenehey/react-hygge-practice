@@ -13,9 +13,9 @@ export default function Home() {
 
   return (
     <main style={{ backgroundImage: `url(${background})` }}>
-      <p>Winter is a time of hygge. How will you stay cozy this season?</p>
+      <p>Winter is a time to s l o w d o w n. How will you stay cozy this season?</p>
       <Editor {...{ light, setLight, activity, setActivity }} />
-      {light && <Preview {...{ light, activity }} />}
+      {light && activity && <Preview {...{ light, activity }} />}
       <PlaySound />
     </main>
   );
