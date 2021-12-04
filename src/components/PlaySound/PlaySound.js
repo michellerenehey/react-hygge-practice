@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Sound from 'react-sound';
 import rain from '../../rain-sound.mp3';
+import '../styles/PlaySound.css';
 
 const PlaySound = (handleSongLoading, handleSongPlaying, handleSongFinishedPlaying) => {
   const [isPlaying, setIsPlaying] = useState(false);
