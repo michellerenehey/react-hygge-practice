@@ -2,7 +2,7 @@ import '../styles/Preview.css';
 
 export default function Preview({ light, activity }) {
   return (
-    <div>
+    <div className="bottom">
       <img className="lightImage" src={`${process.env.PUBLIC_URL}/images/${light}.jpg`} />
       <img className="activityImage" src={`${process.env.PUBLIC_URL}/images/${activity}.jpg`} />
     </div>

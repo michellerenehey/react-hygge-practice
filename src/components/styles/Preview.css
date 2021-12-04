@@ -1,3 +1,11 @@
+.bottom {
+  display: flex;
+}
+
 .lightImage {
+  height: 400px;
+}
+
+.activityImage {
   height: 400px;
 }

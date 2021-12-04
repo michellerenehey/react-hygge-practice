@@ -10,8 +10,8 @@ export default function Editor({ light, setLight, activity, setActivity }) {
   };
 
   return (
-    <div>
-      <div className="top">
+    <div className="top">
+      <div>
         <label>light label</label>
         <select value={light} onChange={handleLight}>
           <option value="lamp">lamp</option>
@@ -20,18 +20,9 @@ export default function Editor({ light, setLight, activity, setActivity }) {
         </select>
       </div>
 
-      {/* <div className="top">
-        <label>music label</label>
-        <select>
-          <option>music 1</option>
-          <option>music 2</option>
-          <option>music 3</option>
-        </select>
-      </div> */}
-
-      <div className="top">
+      <div>
         <label>activity label</label>
-        <select value={activity} onChange={setActivity}>
+        <select value={activity} onChange={handleActivity}>
           <option value="napping">take a nap</option>
           <option value="reading">read a book</option>
           <option value="movie">watch a movie</option>
